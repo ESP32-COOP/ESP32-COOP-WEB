@@ -5,9 +5,26 @@
 @layer utilities{
     .h-screen { height: 100vh; height: 100dvh }
 
+    .inv-rounded::after{
+        position: absolute;
+        top: -5rem;
+        left: 0;
+        border-radius: 1rem;
+        content: "";
+        width: 5rem;
+        height: 5rem;
+        background-color: #E2EBFF;
+    }
 
-
-    .left-fit{ width: 66.6666%;}
+    .inv-rounded::before{
+        position: absolute;
+        top: -2rem;
+        left: 0;
+        content: "";
+        width: 2rem;
+        height: 2rem;
+        background-color: #F2F6FF;
+    }
 
 }
 

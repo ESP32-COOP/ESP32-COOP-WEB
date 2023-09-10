@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .h-screen { height: 100vh; height: 100dvh }
+
+
+
+    .left-fit{ width: 66.6666%;}
+
+}
+

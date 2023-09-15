@@ -13,7 +13,7 @@
         content: "";
         width: 5rem;
         height: 5rem;
-        background-color: #E2EBFF;
+        background-color: #F2F6FF;
     }
 
     .inv-rounded::before{
@@ -23,7 +23,7 @@
         content: "";
         width: 2rem;
         height: 2rem;
-        background-color: #F2F6FF;
+        background-color: #E2EBFF;
     }
 
 }

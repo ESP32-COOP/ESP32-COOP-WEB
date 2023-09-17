@@ -5,7 +5,7 @@
 @layer utilities{
     .h-screen { height: 100vh; height: 100dvh }
 
-    .inv-rounded::after{
+    .inv-rounded-tl::after{
         position: absolute;
         top: -5rem;
         left: 0;
@@ -16,7 +16,7 @@
         background-color: #F2F6FF;
     }
 
-    .inv-rounded::before{
+    .inv-rounded-tl::before{
         position: absolute;
         top: -2rem;
         left: 0;
@@ -24,6 +24,45 @@
         width: 2rem;
         height: 2rem;
         background-color: #E2EBFF;
+    }
+
+    .inv-rounded-bl::after{
+        position: absolute;
+        bottom: 0;
+        left: -5rem;
+        border-radius: 1rem;
+        content: "";
+        width: 5rem;
+        height: 5rem;
+        background-color: #F2F6FF;
+    }
+
+    .inv-rounded-bl::before{
+        position: absolute;
+        bottom: 0;
+        left: -2rem;
+        content: "";
+        width: 2rem;
+        height: 2rem;
+        background-color: #E2EBFF;
+    }
+
+    .inv-rounded-bl-none::after{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        content: "";
+        width: 0;
+        height: 0;
+    }
+
+    .inv-rounded-bl-none::before{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        content: "";
+        width: 0;
+        height: 0;
     }
 
 }

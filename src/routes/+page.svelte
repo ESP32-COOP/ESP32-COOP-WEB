@@ -37,7 +37,7 @@
                         <span class="uppercase">COOP DOOR</span> <br>
                         for you</h2>
                 </div>
-            <div class="flex relative flex-col gap-5 p-5 pl-5 w-full h-1/2 rounded-2xl rounded-br-none rounded-bl-none md:inv-rounded-bl lg:inv-rounded-bl-none lg:rounded-bl-2xl lg:pl-1 lg:rounded-tl-none bg-coop-blue-100 lg:inv-rounded-tl">
+            <div class="flex relative flex-col gap-5 p-5 pl-5 w-full h-1/2 rounded-2xl rounded-br-none rounded-bl-none md:inv-rounded-bl lg:rounded-bl-2xl lg:pl-1 lg:rounded-tl-none bg-coop-blue-100 lg:inv-rounded-tl">
                 <div class="flex items-end p-4 w-full h-2/3 bg-white rounded-2xl">
                     <p class="text-xl lg:text-[2rem] leading-tight font-bold">Never worry about <br> your chicken</p>
                     <img class="ml-auto w-auto h-3/4" src="/esp32.svg" alt="esp32">

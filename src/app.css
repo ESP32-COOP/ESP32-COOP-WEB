@@ -2,10 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities{
-    .h-screen { height: 100vh; height: 100dvh }
+@layer utilities {
+    .h-screen {
+        height: 100vh;
+        height: 100dvh
+    }
 
-    .inv-rounded-tl::after{
+    .user-drag-none {
+        -webkit-user-drag: none;
+        -khtml-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        user-drag: none;
+    }
+
+    .inv-rounded-tl::after {
         position: absolute;
         top: -5rem;
         left: 0;
@@ -16,7 +27,7 @@
         background-color: #F2F6FF;
     }
 
-    .inv-rounded-tl::before{
+    .inv-rounded-tl::before {
         position: absolute;
         top: -2rem;
         left: 0;
@@ -26,7 +37,7 @@
         background-color: #E2EBFF;
     }
 
-    .inv-rounded-bl::after{
+    .inv-rounded-bl::after {
         position: absolute;
         bottom: 0;
         left: -5rem;
@@ -37,7 +48,7 @@
         background-color: #F2F6FF;
     }
 
-    .inv-rounded-bl::before{
+    .inv-rounded-bl::before {
         position: absolute;
         bottom: 0;
         left: -2rem;
@@ -47,7 +58,7 @@
         background-color: #E2EBFF;
     }
 
-    .inv-rounded-bl-none::after{
+    .inv-rounded-bl-none::after {
         position: absolute;
         bottom: 0;
         left: 0;
@@ -56,7 +67,7 @@
         height: 0;
     }
 
-    .inv-rounded-bl-none::before{
+    .inv-rounded-bl-none::before {
         position: absolute;
         bottom: 0;
         left: 0;
@@ -66,4 +77,3 @@
     }
 
 }
-

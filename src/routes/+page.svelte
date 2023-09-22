@@ -2,7 +2,7 @@
     <div class="flex gap-2 items-center pb-3 w-full h-20">
         <img class="w-auto h-full user-drag-none" src="/logo.svg" alt="coop door esp32 logo">
         <h1 class="text-2xl sm:text-[2.5rem] uppercase">esp32 coop door</h1>
-        <a href="https://coop-door.vercel.app/" class="px-5 py-2 ml-auto text-sm text-white whitespace-nowrap bg-gradient-to-r rounded-full md:text-xl md:px-12 md:py-2 from-slate-700 to-slate-900">Acces App</a>
+        <a href="https://coop-door.vercel.app/" class="px-5 py-2 ml-auto text-sm text-white whitespace-nowrap bg-gradient-to-r rounded-full user-drag-none md:text-xl md:px-12 md:py-2 from-slate-700 to-slate-900">Acces App</a>
     </div>
     <div class="flex overflow-hidden flex-col-reverse w-full h-full lg:flex-row">
         <div class="flex flex-col gap-5 p-5 w-full h-full rounded-2xl rounded-tl-none rounded-tr-none lg:rounded-tr-2xl lg:rounded-br-none sm:flex-row bg-coop-blue-100 md:rounded-tl-2xl">
@@ -13,14 +13,14 @@
                 <p class="text-[2.2rem] h-fit align-bottom">Loved by all chicken & their owner</p>
             </div>
             <div class="flex flex-col gap-5 w-full h-auto rounded-xl lg:h-full">
-                <a href="https://github.com/ESP32-COOP/" class="flex flex-col gap-2 justify-end p-5 w-full h-1/2 bg-gradient-to-r rounded-2xl from-slate-700 to-slate-900">
+                <a href="https://github.com/ESP32-COOP/" class="flex flex-col gap-2 justify-end p-5 w-full h-1/2 bg-gradient-to-r rounded-2xl user-drag-none from-slate-700 to-slate-900">
                     <div>
                         <img class="w-auto h-18 user-drag-none" src="/addFile.svg" alt="add document"/>
                     </div>
                     <p class="text-[1.5rem] lg:text-[2rem] font-bold text-white">Contribute to <br> the project !</p>
 
                 </a>
-                <a href="https://github.com/ESP32-COOP/ESP32-COOP-DOC" class="flex flex-col gap-2 p-5 w-full h-1/2 bg-white rounded-2xl">
+                <a href="https://github.com/ESP32-COOP/ESP32-COOP-DOC" class="flex flex-col gap-2 p-5 w-full h-1/2 bg-white rounded-2xl user-drag-none">
                     <div class="flex justify-center items-center w-full h-full">
                         <img src="/plus.svg" alt="plus" class="user-drag-none" />
                     </div>
@@ -45,10 +45,8 @@
                 <div class="flex items-center p-3 w-full bg-white rounded-2xl lg:h-1/3">
                     <p class="text-xl lg:text-[1.5rem]">Buy your how here</p>
                     <img class="w-auto ml-auto  h-full max-w-[5rem] user-drag-none" src="/arrow.svg" alt="arrow">
-
                 </div>
             </div>
-
         </div>
     </div>
 </div>

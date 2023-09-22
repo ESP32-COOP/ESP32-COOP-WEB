@@ -13,7 +13,7 @@
                 <p class="text-[2.2rem] h-fit align-bottom">Loved by all chicken & their owner</p>
             </div>
             <div class="flex flex-col gap-5 w-full h-auto rounded-xl lg:h-full">
-                <a href="https://coop-door.vercel.app/" class="flex flex-col gap-2 justify-end p-5 w-full h-1/2 bg-gradient-to-r rounded-2xl from-slate-700 to-slate-900">
+                <a href="https://github.com/ESP32-COOP/" class="flex flex-col gap-2 justify-end p-5 w-full h-1/2 bg-gradient-to-r rounded-2xl from-slate-700 to-slate-900">
                     <div>
                         <img class="w-auto h-18" src="/addFile.svg" alt="add document"/>
                     </div>
@@ -24,10 +24,10 @@
                     <div class="flex justify-center items-center w-full h-full">
                         <img src="/plus.svg" alt="plus" />
                     </div>
-                    <div class="flex flex-col justify-center items-center w-full h-full">
+                    <a href="https://github.com/ESP32-COOP/ESP32-COOP-DOC" class="flex flex-col justify-center items-center w-full h-full">
                         <p class="text-2xl font-bold w-fit">Build it !</p>
                         <p class="font-bold text-gray-500 w-fit">tailored to your needs</p>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -37,7 +37,7 @@
                         <span class="uppercase">COOP DOOR</span> <br>
                         for you</h2>
                 </div>
-            <div class="flex relative flex-col gap-5 p-5 pl-5 w-full h-1/2 rounded-2xl rounded-br-none rounded-bl-none md:inv-rounded-bl lg:rounded-bl-2xl lg:pl-1 lg:rounded-tl-none bg-coop-blue-100 lg:inv-rounded-tl">
+            <div class="flex relative flex-col gap-5 p-5 pl-5 w-full h-1/2 rounded-2xl rounded-br-none rounded-bl-none md:inv-rounded-bl lg:rounded-br-2xl lg:pl-1 lg:rounded-tl-none bg-coop-blue-100 lg:inv-rounded-tl">
                 <div class="flex items-end p-4 w-full h-2/3 bg-white rounded-2xl">
                     <p class="text-xl lg:text-[2rem] leading-tight font-bold">Never worry about <br> your chicken</p>
                     <img class="ml-auto w-auto h-3/4" src="/esp32.svg" alt="esp32">

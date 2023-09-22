@@ -20,15 +20,15 @@
                     <p class="text-[1.5rem] lg:text-[2rem] font-bold text-white">Contribute to <br> the project !</p>
 
                 </a>
-                <div class="flex flex-col gap-2 p-5 w-full h-1/2 bg-white rounded-2xl">
+                <a href="https://github.com/ESP32-COOP/ESP32-COOP-DOC" class="flex flex-col gap-2 p-5 w-full h-1/2 bg-white rounded-2xl">
                     <div class="flex justify-center items-center w-full h-full">
                         <img src="/plus.svg" alt="plus" />
                     </div>
-                    <a href="https://github.com/ESP32-COOP/ESP32-COOP-DOC" class="flex flex-col justify-center items-center w-full h-full">
+                    <div  class="flex flex-col justify-center items-center w-full h-full">
                         <p class="text-2xl font-bold w-fit">Build it !</p>
                         <p class="font-bold text-gray-500 w-fit">tailored to your needs</p>
-                    </a>
-                </div>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="lg:w-[80%] h-full flex flex-col md:flex-row lg:flex-col">

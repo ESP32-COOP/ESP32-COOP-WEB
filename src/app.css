@@ -16,37 +16,32 @@
         user-drag: none;
     }
 
-    .inv-rounded-tl::after {
-        position: absolute;
-        top: -5rem;
-        left: 0;
-        border-radius: 1rem;
-        content: "";
-        width: 5rem;
-        height: 5rem;
-        background-color: #F2F6FF;
+    .bg-tempalte {
+        z-index: 50;
+        background: url('/background.svg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
+
+
 
     .inv-rounded-tl::before {
         position: absolute;
         top: -2rem;
-        left: 0;
+        left: -2px;
         content: "";
         width: 2rem;
         height: 2rem;
         background-color: #E2EBFF;
+        mask-image: url(fake_radius_left.svg);
+        mask-repeat: no-repeat;
+        mask-origin: content-box;
+        mask-position: right bottom;
+        transform-origin: left bottom;
     }
 
-    .inv-rounded-bl::after {
-        position: absolute;
-        bottom: 0;
-        left: -5rem;
-        border-radius: 1rem;
-        content: "";
-        width: 5rem;
-        height: 5rem;
-        background-color: #F2F6FF;
-    }
 
     .inv-rounded-bl::before {
         position: absolute;
@@ -56,16 +51,14 @@
         width: 2rem;
         height: 2rem;
         background-color: #E2EBFF;
+        mask-image: url(fake_radius_right.svg);
+        mask-repeat: no-repeat;
+        mask-origin: content-box;
+        mask-position: right bottom;
+        transform-origin: left bottom;
     }
 
-    .inv-rounded-bl-none::after {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        content: "";
-        width: 0;
-        height: 0;
-    }
+
 
     .inv-rounded-bl-none::before {
         position: absolute;

@@ -1,4 +1,4 @@
-<div class="flex relative flex-col items-end p-5 w-screen lg:h-screen bg-coop-blue-50">
+<div class="flex relative flex-col items-end p-5 w-screen lg:h-screen bg-coop-blue-50 bg-tempalte">
     <div class="flex gap-2 items-center pb-3 w-full h-20">
         <img class="w-auto h-full user-drag-none" src="/logo.svg" alt="coop door esp32 logo">
         <h1 class="text-2xl sm:text-[2.5rem] uppercase">esp32 coop door</h1>

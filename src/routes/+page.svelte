@@ -33,7 +33,7 @@
         </div>
         <div class="lg:w-[80%] h-full flex flex-col md:flex-row lg:flex-col">
                 <div class="flex z-20 items-end p-5 w-full h-1/2">
-                    <h2 class="text-[3.1rem] lg:text-[4rem] xl:text-[4.5rem] 2xl:text-[5rem]  leading-tight ">The perfect <br>
+                    <h2 class="text-[3.1rem] lg:text-[4rem] xl:text-[4.5rem] 2xl:text-[6rem]  leading-tight ">The perfect <br>
                         <span class="uppercase">COOP DOOR</span> <br>
                         for you</h2>
                 </div>
@@ -43,7 +43,7 @@
                     <img class="ml-auto w-auto h-3/4 user-drag-none" src="/esp32.svg" alt="esp32">
                 </div>
                 <div class="flex items-center p-3 w-full bg-white rounded-2xl lg:h-1/3">
-                    <p class="text-xl lg:text-[1.5rem]">Buy your how here</p>
+                    <p class="text-xl lg:text-[1.5rem]">Buy your own here</p>
                     <img class="w-auto ml-auto  h-full max-w-[5rem] user-drag-none" src="/arrow.svg" alt="arrow">
                 </div>
             </div>

@@ -35,7 +35,7 @@
         width: 2rem;
         height: 2rem;
         background-color: #E2EBFF;
-        mask-image: url(fake_radius_left.svg);
+        mask-image: url('/fake_radius_left.svg');
         mask-repeat: no-repeat;
         mask-origin: content-box;
         mask-position: right bottom;
@@ -51,7 +51,7 @@
         width: 2rem;
         height: 2rem;
         background-color: #E2EBFF;
-        mask-image: url(fake_radius_right.svg);
+        mask-image: url('/fake_radius_right.svg');
         mask-repeat: no-repeat;
         mask-origin: content-box;
         mask-position: right bottom;

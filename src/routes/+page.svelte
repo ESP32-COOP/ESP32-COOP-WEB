@@ -1,7 +1,7 @@
 <div class="flex relative flex-col items-end p-5 w-screen lg:h-screen bg-coop-blue-50">
     <div class="flex gap-2 items-center pb-3 w-full h-20">
         <img class="w-auto h-full" src="/logo.svg" alt="coop door esp32 logo">
-        <h1 class="text-2xl sm:text-[2.5rem] uppercase">esp32 coop door</h1>
+        <h1 class="text-2xl sm:text-[2.5rem] uppercase font-medium">esp32 coop door</h1>
         <a href="https://coop-door.vercel.app/" class="px-5 py-2 ml-auto text-sm text-white whitespace-nowrap bg-gradient-to-r rounded-full md:text-xl md:px-12 md:py-2 from-slate-700 to-slate-900">Acces App</a>
     </div>
     <div class="flex overflow-hidden flex-col-reverse w-full h-full lg:flex-row">

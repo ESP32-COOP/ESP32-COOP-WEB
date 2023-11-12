@@ -3,6 +3,9 @@ export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     extend: {
+      fontFamily: {
+        'sans': ['Futura',  'sans-serif']
+      },
       colors:{
         'coop-blue': '#313F53',
         'coop-blue-100': '#E2EBFF',

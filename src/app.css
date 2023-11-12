@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    @font-face {
+      font-family: Futura;
+      font-weight: 400;
+      src: url("/fonts/futura/Futura Book font.ttf") format("tff");
+    }
+
+    @font-face {
+        font-family: Futura;
+        font-weight: 800;
+        src: url("/fonts/futura/Futura Heavy font.ttf") format("tff");
+    }
+
+    @font-face {
+        font-family: Futura;
+        font-weight: 900;
+        src: url("/fonts/futura/Futura Bold.ttf") format("tff");
+    }
+
+  }
+
 @layer utilities{
     .h-screen { height: 100vh; height: 100dvh }
 

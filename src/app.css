@@ -6,19 +6,19 @@
     @font-face {
       font-family: Futura;
       font-weight: 400;
-      src: url("/fonts/futura/Futura Book font.ttf") format("tff");
+      src: url("/fonts/futura/Futura_Book_font.ttf") format("tff");
     }
 
     @font-face {
         font-family: Futura;
         font-weight: 800;
-        src: url("/fonts/futura/Futura Heavy font.ttf") format("tff");
+        src: url("/fonts/futura/Futura_Heavy_font.ttf") format("tff");
     }
 
     @font-face {
         font-family: Futura;
         font-weight: 900;
-        src: url("/fonts/futura/Futura Bold.ttf") format("tff");
+        src: url("/fonts/futura/Futura_Bold.ttf") format("tff");
     }
 
   }
@@ -26,16 +26,6 @@
 @layer utilities{
     .h-screen { height: 100vh; height: 100dvh }
 
-    .inv-rounded-tl::after{
-        position: absolute;
-        top: -5rem;
-        left: 0;
-        border-radius: 1rem;
-        content: "";
-        width: 5rem;
-        height: 5rem;
-        background-color: #F2F6FF;
-    }
 
     .h-screen {
         height: 100vh;

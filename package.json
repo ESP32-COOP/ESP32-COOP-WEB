@@ -23,6 +23,7 @@
   },
   "type": "module",
   "dependencies": {
+    "mdsvex": "^0.11.0",
     "vercel": "latest"
   }
 }

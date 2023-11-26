@@ -5,7 +5,7 @@ import type { PageLoad } from './$types';
 export const load = (async ({params}) => {
     try {
         /* @vite-ignore */
-		const post = await import(`/src/blog/${params.slug}.md`)
+		const post = await import(`../../../../src/blog/${params.slug}.md`)
 
 		return {
 			content: post.default,

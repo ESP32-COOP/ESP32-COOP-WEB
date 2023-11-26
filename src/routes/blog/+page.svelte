@@ -1,8 +1,10 @@
 <script lang="ts">
   import type { PageData } from "./$types";
   import { formatDate } from "$lib/utils";
-
   import * as config from "$lib/config";
+  import { backUrl } from "../../stores/backUrl";
+
+  $backUrl = "/";
 
   export let data: PageData;
 </script>
@@ -14,12 +16,10 @@
 </svelte:head>
 
 <section class="flex flex-col w-full h-full">
-	<div class="flex h-fit w-fit">
-		<h1 class="text-[2rem] pl-10 font-bold">Blog list:</h1>
-	  </div>
+  <div class="flex h-fit w-fit">
+    <h1 class="text-[2rem] pl-10 font-bold">Blog list:</h1>
+  </div>
   <div class="flex justify-center w-full h-full">
-    
-
     <ul class="flex h-full w-fit">
       {#each data.blogs as blog}
         <a

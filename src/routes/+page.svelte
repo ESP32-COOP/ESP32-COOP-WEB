@@ -38,10 +38,10 @@
                         for you</h2>
                 </div>
             <div class="flex relative flex-col gap-5 p-5 pl-5 w-full h-1/2 rounded-2xl rounded-br-none rounded-bl-none sm:pb-0 lg:pb-5 md:inv-rounded-bl lg:rounded-br-2xl lg:pl-1 lg:rounded-tl-none bg-coop-blue-100 lg:inv-rounded-tl">
-                <div class="flex items-end p-4 w-full h-2/3 bg-white rounded-2xl">
+                <a  href="/blog" class="flex items-end p-4 w-full h-2/3 bg-white rounded-2xl">
                     <p class="text-xl lg:text-[2rem] leading-tight font-bold">Never worry about <br> your chicken</p>
                     <img class="ml-auto w-auto h-3/4 user-drag-none" src="/esp32.svg" alt="esp32">
-                </div>
+                </a>
                 <div class="flex overflow-hidden items-center p-3 w-full bg-white rounded-2xl lg:h-1/3">
                     <p class="text-xl lg:text-[1.5rem]">Buy your own here</p>
                     <img class="w-auto ml-auto  h-full max-w-[5rem] user-drag-none" src="/arrow.svg" alt="arrow">

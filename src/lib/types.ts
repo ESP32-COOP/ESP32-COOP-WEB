@@ -1,4 +1,6 @@
-export type Categories = 'test1'  | 'tes2';
+export type Categories = 'english'  | 'setup' | 'français' | 
+                'documentation' | 'guide' | 'goal' | 'news' | 'white paper' | 'other' | 'dev blog' |
+                'explanation' ;
 
 
 export type Blog ={

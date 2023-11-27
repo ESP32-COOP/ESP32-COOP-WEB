@@ -47,14 +47,47 @@
 			</article>
 
 			<style lang="postcss">
+				section {
+					@apply  mx-auto my-8 p-4  rounded-md shadow-md;
+				}
+		
 				section h1 {
-					@apply text-[2rem];
+					@apply text-4xl font-bold mb-4;
+				}
+		
+				section h2 {
+					@apply text-2xl font-bold my-3;
+				}
+		
+				section h3 {
+					@apply text-xl font-bold my-2;
+				}
+		
+				section a {
+					@apply text-blue-500 hover:underline;
+				}
+		
+				section p {
+					@apply text-base leading-6 my-4;
+				}
+		
+				section pre {
+					@apply bg-gray-100 p-4 rounded-md;
+				}
+		
+				section code {
+					@apply text-sm;
 				}
 
-				section pre {
-					@apply bg-white;
-					@apply p-2;
-					@apply rounded-md;
+				section ul {
+					@apply list-disc pl-5 my-4;
+				}
+
+				section li {
+					@apply text-base leading-6;
+				}
+				section img {
+					@apply  px-2 rounded-md;
 				}
 			</style>
 		</section>

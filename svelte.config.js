@@ -1,12 +1,18 @@
 import adapter from '@sveltejs/adapter-auto';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 import {mdsvex} from 'mdsvex';
+import remarkGemoji from 'remark-gemoji';
+import remarkGfm from 'remark-gfm';
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import rehypeSlug from 'rehype-slug'
 
 /** @type {import('mdsvex').MdsvexCompileOptions} */
 const mdsvexOptions = {
 	extensions: [
 		'.md'
 	],
+	remarkPlugins: [ remarkGfm, remarkGemoji,  ],
+	rehypePlugins : [rehypeSlug, rehypeAutolinkHeadings ]
 
 }
 

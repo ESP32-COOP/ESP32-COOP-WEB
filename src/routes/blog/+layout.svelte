@@ -5,7 +5,7 @@
 
 
 <div
-  class="flex relative flex-col items-end p-5 w-screen h-screen bg-coop-blue-50 bg-tempalte"
+  class="flex relative flex-col items-end p-5 w-screen h-fit bg-coop-blue-50 bg-tempalte"
 >
   <div class="flex gap-2 items-center pb-3 w-full h-12">
     <img

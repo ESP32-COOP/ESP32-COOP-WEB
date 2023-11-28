@@ -17,7 +17,7 @@
 </svelte:head>
 <div class="flex flex-col items-center w-full h-full">
 	<article
-		class="flex flex-col w-[80%] gap-5 h-fit items-center justify-start bg-slate-300 rounded-lg p-2"
+		class="flex flex-col w-[80%] gap-5 h-fit items-center justify-start bg-slate-200 shadow-md rounded-lg p-2"
 	>
 		<!-- Title -->
 		<hgroup class="w-full flex flex-col">
@@ -48,27 +48,31 @@
 
 			<style lang="postcss">
 				section {
-					@apply  mx-auto my-8 p-4  rounded-md shadow-md;
+					@apply  mx-auto my-8 p-4  rounded-md ;
 				}
 		
 				section h1 {
-					@apply text-4xl font-bold mb-4;
+					@apply text-[2rem] pb-[.8rem] border-b-[1px] border-slate-500 mb-4 mt-6 font-semibold leading-5;
+				}
+
+				section h1 a {
+					@apply no-underline
 				}
 		
 				section h2 {
-					@apply text-2xl font-bold my-3;
+					@apply pb-[.8rem] mt-6 mb-4 box-border leading-5 text-2xl font-semibold border-b-[1px] border-slate-500;
 				}
 		
 				section h3 {
-					@apply text-xl font-bold my-2;
+					@apply text-xl mt-6 mb-4 font-semibold leading-5;
 				}
 		
 				section a {
-					@apply text-blue-500 hover:underline;
+					@apply text-blue-500 underline;
 				}
 		
 				section p {
-					@apply text-base leading-6 my-4;
+					@apply text-base leading-6 my-4 text-[16px] mb-4 break-words;
 				}
 		
 				section pre {
@@ -80,14 +84,19 @@
 				}
 
 				section ul {
-					@apply list-disc pl-5 my-4;
+					@apply pl-8 mb-4 list-disc;
+				}
+
+				section ol {
+					@apply pl-8 mb-4 list-decimal;
 				}
 
 				section li {
-					@apply text-base leading-6;
+					@apply text-base leading-6 box-border ;
 				}
+
 				section img {
-					@apply  px-2 rounded-md;
+					@apply  rounded-md px-5;
 				}
 			</style>
 		</section>
